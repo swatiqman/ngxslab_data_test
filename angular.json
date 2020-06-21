@@ -121,8 +121,16 @@
               "devServerTarget": "ngxs-lab-data-test01:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "ngxs-lab-data-test01"
+    }
+  },
+  "defaultProject": "ngxs-lab-data-test01",
+  "cli": {
+    "analytics": "c8b075b9-be1f-48ec-980f-d1f8e384fd4f"
+  }
 }
